@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: '8bits';
+    src: url('../public/8-BITWONDER.TTF') format('truetype');
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @font-face {
+    font-family: 'Minecraft';
+    src: url('../public/Minecraftia-Regular.ttf') format('truetype');
   }
-  to {
-    transform: rotate(360deg);
+
+  @font-face {
+    font-family: 'MarioBros';
+    src: url('../public/SuperMario256.ttf') format('truetype');
   }
-}
+
+html, body {
+    background-color: #11112b; 
+    margin: 0;
+  }
+
+  #root{
+    background-color: #11112b; 
+    margin: 0;
+  }
+
+  .navbar-brand{
+    font-family: 'MarioBros', sans-serif;
+    font-size: 30px!important;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+  }
+
+  a.nav-link{
+    color: #00fda9; 
+    font-family: 'Minecraft', sans-serif; 
+    padding-top: 20px;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+  }
+
+  a.nav-link:hover{
+    color: #00b7ff; 
+    font-family: 'Minecraft', sans-serif; 
+  }
+
+  a.nav-link:focus{
+    color: #00b7ff; 
+    font-family: 'Minecraft', sans-serif; 
+  }
+
+  .about-background h2{
+    color: #c928ff; 
+    font-family: '8bits', sans-serif; 
+  }
+
+  .about-background p{
+    color: #005da8; 
+    font-family: '8bits', sans-serif; 
+  }
+  
+  .experience-background h2 {
+    color: #c928ff; 
+    font-family: '8bits', sans-serif; 
+  }
+
+  .experience-background li {
+    color: #005da8; 
+    font-family: '8bits', sans-serif; 
+  }
+  
+  .education-background h2 {
+    color: #c928ff; 
+    font-family: '8bits', sans-serif; 
+  }
+
+  .education-background li {
+    color: #005da8; 
+    font-family: '8bits', sans-serif; 
+  }
+  
+  .projects-background h2 {
+    color: #c928ff; 
+    font-family: '8bits', sans-serif; 
+  }
+  
+  .projects-background li {
+    color: #005da8; 
+    font-family: '8bits', sans-serif; 
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2300fda9' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    border: none; 
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
