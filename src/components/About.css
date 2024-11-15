@@ -1,0 +1,37 @@
+  @media (max-width: 768px) {
+    .prueba {
+      margin-top: 20px !important; /* Aquí defines el espacio que quieres entre la imagen y el texto */
+    }
+  }
+  .Habilidades{
+    color: #FFD700; 
+    font-family: '8bits', sans-serif; 
+    font-size: 16px;
+  }
+
+  img{
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+  }
+
+  @media (max-width: 768px){
+  .Figma{
+    width: 32px !important;
+  }
+} 
+@media (min-width: 1500px){
+  .Figma{
+    width: 64px !important;
+  }
+} 
+.ListaFinal{
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+footer {
+  width: 100% !important;
+  position: absolute !important;
+  left: 0;
+}

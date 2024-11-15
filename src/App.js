@@ -17,10 +17,7 @@ function App() {
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid d-flex align-items-center">
             <Link className="navbar-brand" to="/about"> 
-              <span className="letter" style={{ color: '#ff0000' }}>M</span>
-              <span className="letter" style={{ color: '#ffee00' }}>i</span>
-              <span className="letter" style={{ color: '#000000' }}> </span> 
-              <span className="letter" style={{ color: '#ffee00' }}>P</span>
+              <span className="letter" style={{ color: '#ffee00' }}>p</span>
               <span className="letter" style={{ color: '#005da8' }}>o</span>
               <span className="letter" style={{ color: '#ff0000' }}>r</span>
               <span className="letter" style={{ color: '#00a82a' }}>t</span>

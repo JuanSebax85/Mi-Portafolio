@@ -13,6 +13,12 @@
     src: url('../public/SuperMario256.ttf') format('truetype');
   }
 
+  
+  @font-face {
+    font-family: 'Regular';
+    src: url('../public/Roboto-Regular.ttf') format('truetype');
+  }
+
 html, body {
     background-color: #11112b; 
     margin: 0;
@@ -51,13 +57,13 @@ html, body {
   }
 
   .about-background h2{
-    color: #c928ff; 
+    color: #FFD700; 
     font-family: '8bits', sans-serif; 
   }
 
   .about-background p{
-    color: #005da8; 
-    font-family: '8bits', sans-serif; 
+    color: #ffffff; 
+    font-family: 'Regular', sans-serif; 
   }
   
   .experience-background h2 {
