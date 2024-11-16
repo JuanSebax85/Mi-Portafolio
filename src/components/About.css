@@ -1,6 +1,6 @@
   @media (max-width: 768px) {
     .prueba {
-      margin-top: 20px !important; /* Aquí defines el espacio que quieres entre la imagen y el texto */
+      margin-top: 20px !important; 
     }
   }
   .Habilidades{
@@ -25,13 +25,6 @@
     width: 64px !important;
   }
 } 
-.ListaFinal{
-  list-style-type: none; 
-  padding-left: 0; 
-}
 
-footer {
-  width: 100% !important;
-  position: absolute !important;
-  left: 0;
-}
+
+

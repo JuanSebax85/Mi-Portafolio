@@ -1,0 +1,21 @@
+@font-face {
+    font-family: '8bits';
+    src: url('../../public/8-BITWONDER.TTF') format('truetype');
+}
+
+.ListaExperiencia{
+    list-style-type:decimal;  
+    padding-left: 0; 
+    font-size: 24px;
+}
+@media (max-width: 768px){
+    .ListaExperiencia{
+        list-style-type:decimal;  
+        padding-left: 0; 
+        font-size: 18px;
+    }
+} 
+.HojaVida{
+    color: #FFD700 !important; 
+    font-family: '8bits', sans-serif !important; 
+}

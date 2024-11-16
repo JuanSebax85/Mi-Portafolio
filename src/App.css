@@ -67,17 +67,17 @@ html, body {
   }
   
   .experience-background h2 {
-    color: #c928ff; 
+    color: #FFD700; 
     font-family: '8bits', sans-serif; 
   }
 
   .experience-background li {
-    color: #005da8; 
-    font-family: '8bits', sans-serif; 
+    color: #ffffff; 
+    font-family: 'Regular', sans-serif; 
   }
   
   .education-background h2 {
-    color: #c928ff; 
+    color: #FFD700;  
     font-family: '8bits', sans-serif; 
   }
 
@@ -87,7 +87,7 @@ html, body {
   }
   
   .projects-background h2 {
-    color: #c928ff; 
+    color: #FFD700; 
     font-family: '8bits', sans-serif; 
   }
   
@@ -105,4 +105,13 @@ html, body {
     outline: none !important;
     box-shadow: none !important;
     border: none !important;
+  }
+  footer {
+    width: 100% !important;
+    position: absolute !important;
+    left: 0;
+  }
+  .ListaFinal{
+    list-style-type: none; 
+    padding-left: 0; 
   }
