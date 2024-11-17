@@ -9,22 +9,20 @@
     font-size: 16px;
   }
 
-  img{
+  .Subtitulos{
+    color: #FFD700; 
+    font-family: '8bits', sans-serif; 
+    font-size: 16px;
+  }
+
+  img, p, h2{
     user-select: none;
     -webkit-user-select: none; 
     -moz-user-select: none;
   }
 
-  @media (max-width: 768px){
-  .Figma{
-    width: 32px !important;
-  }
-} 
-@media (min-width: 1500px){
-  .Figma{
-    width: 64px !important;
-  }
-} 
+
+
 
 
 

@@ -55,9 +55,9 @@ function App() {
                 <li className="nav-item">
                   <Link className="nav-link" to="/education" onClick={closeMenu}>Estudios</Link>
                 </li>
-                <li className="nav-item">
+               {/* <li className="nav-item">
                   <Link className="nav-link" to="/projects" onClick={closeMenu}>Proyectos</Link>
-                </li>
+                </li>*/}
               </ul>
             </div>
           </div>
