@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Mi-Portafolio/static/css/main.97857024.css",
-    "main.js": "/Mi-Portafolio/static/js/main.f84eae5b.js",
+    "main.js": "/Mi-Portafolio/static/js/main.13eee398.js",
     "static/media/Roboto-Regular.ttf": "/Mi-Portafolio/static/media/Roboto-Regular.f25bd05915c1a3468d3d.ttf",
     "static/media/Minecraftia-Regular.ttf": "/Mi-Portafolio/static/media/Minecraftia-Regular.69fd3db14fbc8b3f7cdb.ttf",
     "static/media/SuperMario256.ttf": "/Mi-Portafolio/static/media/SuperMario256.727519250ea444b6c5ce.ttf",
     "static/media/8-BITWONDER.TTF": "/Mi-Portafolio/static/media/8-BITWONDER.5fa66681c6f0a8153b97.TTF",
     "index.html": "/Mi-Portafolio/index.html",
     "main.97857024.css.map": "/Mi-Portafolio/static/css/main.97857024.css.map",
-    "main.f84eae5b.js.map": "/Mi-Portafolio/static/js/main.f84eae5b.js.map"
+    "main.13eee398.js.map": "/Mi-Portafolio/static/js/main.13eee398.js.map"
   },
   "entrypoints": [
     "static/css/main.97857024.css",
-    "static/js/main.f84eae5b.js"
+    "static/js/main.13eee398.js"
   ]
 }
